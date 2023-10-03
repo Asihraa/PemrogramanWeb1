@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wisata Indonesia - Patner Trip Jawa Tengah</title>
+</head>
+
+<body>
+    <header style="text-align: center; background-color: #618264; color: #fff; padding: 10px;">
+        <h1 style="font-size: 36px;">Selamat Datang di Patner Trip Jawa Tengah</h1>
+    </header>
+
+    <div style="max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <h2>Tentang Patner Trip Jawa Tengah</h2>
+        <p>Kami melayani : Jasa transportasi, Porter, Privat trip, Open trip, Camping family.
+            Kami hadir untuk kalian yang pengen liburan tanpa ribet, kalian tinggal daftar pengen kemana langsung gas tanpa harus pusing mikirin perlengkapan nya, tinggal bawa diri dengan keadaan sehat dan selesai. </p>
+
+        <h2>Destinasi Populer</h2>
+        <ul>
+            <li><a href="https://baliadventour.com/?utm_source=google&utm_medium=cpc&utm_campaign=Special+Offer+Package+Tour&utm_id=01&gclid=CjwKCAjwyNSoBhA9EiwA5aYlb7B-liLNftej9Mv4HQwI97Qw6W4gj542uvzUJn13RQ3rGz8MSkh5FRoCGgEQAvD_BwE" target="_blank">Bali</a></li>
+            <li><a href="https://www.hilingin.com/layanan/sewa-mobil-jogja/?gclid=CjwKCAjwyNSoBhA9EiwA5aYlb4csnR3c4rBnkxIioEVetCRrxueNUr9RvUKMbfaUoP8m0V245HKMfBoC_WcQAvD_BwE" target="_blank">Yogyakarta</a></li>
+            <li><a href="https://whiletruetraveling.com/2022/01/03/pesona-pantai-menganti-hidden-gem-di-kabupaten-kebumen/" target="_blank">Menganti</a></li>
+            <li><a href="https://www.javanesiatours.com/destination/bromo/?gclid=Cj0KCQjwjt-oBhDKARIsABVRB0xvZjM5V6Uny_fHcciafIOHLjSSoHnne0iZuS_tY7ibVtNlE0zU79caArM8EALw_wcB" target="_blank">Bromo</a></li>
+        </ul>
+
+        <h2>Gambar Wisata</h2>
+        <div style="display: flex; justify-content: space-between;">
+        <img src="assets/bali.jpg" alt="Pemandangan indah di Indonesia" style="max-width: 50%; height: auto;">
+        <img src="assets/jogjakarta1.jpg" alt="jogjakarta estetik" style="max-width: 50%; height: auto;">
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+        <img src="assets/menganti1.jpg" alt="menganti pariwisata" style="max-width: 50%; height: auto;">
+        <img src="assets/bromo1.jpg" alt="bromo" style="max-width: 50%; height: auto;">
+        </div>
+
+        <p>Info lebih lanjut hubungi <a href="https://www.instagram.com/partner_trip_jawatengah/" target="_blank">di sini</a>.</p>
+    </div>
+</body>
+
+</html>
