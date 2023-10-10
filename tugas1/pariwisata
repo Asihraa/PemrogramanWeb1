@@ -3,6 +3,51 @@
 
 <head>
     <title>Wisata Indonesia - Patner Trip Jawa Tengah</title>
+    <style>
+        /* CSS untuk tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #618264;
+            color: #fff;
+        }
+
+        /* CSS untuk form */
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #618264;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,23 +60,73 @@
         <p>Kami melayani : Jasa transportasi, Porter, Privat trip, Open trip, Camping family.
             Kami hadir untuk kalian yang pengen liburan tanpa ribet, kalian tinggal daftar pengen kemana langsung gas tanpa harus pusing mikirin perlengkapan nya, tinggal bawa diri dengan keadaan sehat dan selesai. </p>
 
-        <h2>Destinasi Populer</h2>
-        <ul>
-            <li><a href="https://baliadventour.com/?utm_source=google&utm_medium=cpc&utm_campaign=Special+Offer+Package+Tour&utm_id=01&gclid=CjwKCAjwyNSoBhA9EiwA5aYlb7B-liLNftej9Mv4HQwI97Qw6W4gj542uvzUJn13RQ3rGz8MSkh5FRoCGgEQAvD_BwE" target="_blank">Bali</a></li>
-            <li><a href="https://www.hilingin.com/layanan/sewa-mobil-jogja/?gclid=CjwKCAjwyNSoBhA9EiwA5aYlb4csnR3c4rBnkxIioEVetCRrxueNUr9RvUKMbfaUoP8m0V245HKMfBoC_WcQAvD_BwE" target="_blank">Yogyakarta</a></li>
-            <li><a href="https://whiletruetraveling.com/2022/01/03/pesona-pantai-menganti-hidden-gem-di-kabupaten-kebumen/" target="_blank">Menganti</a></li>
-            <li><a href="https://www.javanesiatours.com/destination/bromo/?gclid=Cj0KCQjwjt-oBhDKARIsABVRB0xvZjM5V6Uny_fHcciafIOHLjSSoHnne0iZuS_tY7ibVtNlE0zU79caArM8EALw_wcB" target="_blank">Bromo</a></li>
-        </ul>
+        <h2>Sekilas Tentang Jawa Tengah</h2>
+        <p>Jawa Tengah ibarat satu paket surga kecil yang jatuh ke bumi. Lanskap alam yang amat memukau. Mata memandang ke mana pun, pasti menemukan gurat keindahan. Jika tidak percaya, Anda bisa membuktikannya dengan mengunjungi berbagai tempat wisata disini.</p>
 
-        <h2>Gambar Wisata</h2>
-        <div style="display: flex; justify-content: space-between;">
-        <img src="assets/bali.jpg" alt="Pemandangan indah di Indonesia" style="max-width: 50%; height: auto;">
-        <img src="assets/jogjakarta1.jpg" alt="jogjakarta estetik" style="max-width: 50%; height: auto;">
-        </div>
-        <div style="display: flex; justify-content: space-between;">
-        <img src="assets/menganti1.jpg" alt="menganti pariwisata" style="max-width: 50%; height: auto;">
-        <img src="assets/bromo1.jpg" alt="bromo" style="max-width: 50%; height: auto;">
-        </div>
+        <h2>Trip Populer di Jawa Tengah</h2>
+        <table>
+            <tr>
+                <th>Nama Trip</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Trip Gunung Prau</td>
+                <td><a href="https://baliadventour.com/?utm_source=google&utm_medium=cpc&utm_campaign=Special+Offer+Package+Tour&utm_id=01&gclid=CjwKCAjwyNSoBhA9EiwA5aYlb7B-liLNftej9Mv4HQwI97Qw6W4gj542uvzUJn13RQ3rGz8MSkh5FRoCGgEQAvD_BwE" target="_blank">Link</a></td>
+            </tr>
+            <tr>
+                <td>Yogyakarta</td>
+                <td><a href="https://www.hilingin.com/layanan/sewa-mobil-jogja/?gclid=CjwKCAjwyNSoBhA9EiwA5aYlb4csnR3c4rBnkxIioEVetCRrxueNUr9RvUKMbfaUoP8m0V245HKMfBoC_WcQAvD_BwE" target="_blank">Link</a></td>
+            </tr>
+            <tr>
+                <td>Menganti</td>
+                <td><a href="https://whiletruetraveling.com/2022/01/03/pesona-pantai-menganti-hidden-gem-di-kabupaten-kebumen/" target="_blank">Link</a></td>
+            </tr>
+            <tr>
+                <td>Bromo</td>
+                <td><a href="https://www.javanesiatours.com/destination/bromo/?gclid=Cj0KCQjwjt-oBhDKARIsABVRB0xvZjM5V6Uny_fHcciafIOHLjSSoHnne0iZuS_tY7ibVtNlE0zU79caArM8EALw_wcB" target="_blank">Link</a></td>
+            </tr>
+        </table>
+
+        <h2>Inspirasi Perjalanan</h2>
+        <p><div style="display: flex; justify-content: space-between;">
+            <img src="assets/gn.prau.jpg" alt="gunung prau cantik" style="max-width: 50%; height: auto;">
+            <img src="assets/jogjakarta1.jpg" alt="jogjakarta estetik" style="max-width: 50%; height: auto;">
+        </div></p>
+        <p><div style="display: flex; justify-content: space-between;">
+            <img src="assets/menganti1.jpg" alt="menganti pariwisata" style="max-width: 50%; height: auto;">
+            <img src="assets/bromo1.jpg" alt="bromo" style="max-width: 50%; height: auto;">
+        </div></p>
+
+        <h2>Form Hubungi Kami</h2>
+        <form action="proses_form.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+            <label for="tujuan">Tujuan Wisata:</label>
+            <select id="tujuan" name="tujuan" required>
+                <option value="Gunung Prau">Gunung Prau</option>
+                <option value="Yogyakarta">Yogyakarta</option>
+                <option value="Menganti">Menganti</option>
+                <option value="Bromo">Bromo</option>
+                <option value="Candi Borobudur">Candi Borobudur</option>
+                <option value="Candi Prambanan">Candi Prambanan</option>
+                <option value="Taman Nasional Karimunjawa">Taman Nasional Karimunjawa</option>
+                <option value="Pantai Parangtritis">Pantai Parangtritis</option>
+                <option value="Gunung Lawu">Gunung Lawu</option>
+                <option value="Gunung Slamet">Gunung Slamet</option>
+                <option value="Dieng">Dieng</option>
+                <option value="user-input">
+                <label for="user-input">Tuliskan sesuatu: <input type="text" id="user-input" placeholder="Ketik di sini..."></label></option>
+            </select>
+
+            <input type="submit" value="Kirim">
+        </form>
 
         <p>Info lebih lanjut hubungi <a href="https://www.instagram.com/partner_trip_jawatengah/" target="_blank">di sini</a>.</p>
     </div>
